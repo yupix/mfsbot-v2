@@ -47,7 +47,7 @@ async def on_member_join(member):
 	if check_blacklist is not None:
 		print('ブロックリストの人が来たよ')
 	else:
-		role = discord.utils.find(lambda r: r.name == 'member', member.guild.roles)
+		role = discord.utils.find(lambda r: r.name == f'{settings.bot_add_role}', member.guild.roles)
 		await member.add_roles(role)
 
 @client.event
