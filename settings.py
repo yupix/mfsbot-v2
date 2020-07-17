@@ -1,10 +1,8 @@
-#botのバージョン(helpコマンド等で使用される)
-bot_version="1.0.0"
-#botの名前(Discordコマンドで使用される)
-bot_name="mfsbot-v2"
-#botのtoken(必須)
-bot_token=""
-#botのコマンドにつける!playの!の部分に当たる物
-bot_prefix="yx!"
-#botステータス
-bot_status="テスト稼働中"
+import os
+
+bot_version = "1.0.0" # Botバージョン
+bot_name = "mfsbot-v2" # Bot名
+bot_token = os.environ["DISCORD_BOT_TOKEN"] # BotのTOKEN（必須）
+bot_prefix = "tx!" # Botのコマンドの先頭部分につく
+bot_add_role = "❖MEMBER❖" # 参加したユーザーに自動で付与する権限の名前
+bot_status = "テスト稼働中" #Botのステータス（〇〇をプレイ中）の部分
