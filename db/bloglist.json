@@ -1,0 +1,16 @@
+{
+    "530299114387406860": {
+        "server_id": "530299114387406860",
+        "blog_list": {
+            "657735618448719913": {
+                "blog_reply_channel": 737371977085485077,
+                "blog_reply_webhook_url": "https://discordapp.com/api/webhooks/737946301882171393/KZkL1dT87HHiR6OvPl0BZ5T5cy0SR2xbuBFtAWDrbEaqEeS4MOEc1irvDwOGKVdHBQp9",
+                "yupix-test": {
+                    "user_id": 315809057032110103,
+                    "channel_id": 737372049231839262,
+                    "embed_color": "0xbbdefb"
+                }
+            }
+        }
+    }
+}
